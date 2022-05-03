@@ -148,11 +148,7 @@ dictionary = read_dictionary()
 # formatted_matrix: macierz z uwzględnionym IDF i znormalizowana
 # svd_matrix[k]: macierz svd dla k=k
 
-matrix=read_matrix("idf_matrix.npz")
-normalise_and_save(matrix, "formatted_matrix")
-
-svd_matrix = read_matrix("svd_matrix60.npz")
-sparse.save_npz("compressed_svd60", svd_matrix, True)
+svd_matrix = read_matrix("formatted_matrix.npz")
 
 title_list = read_title_list()
 
