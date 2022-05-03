@@ -1,3 +1,4 @@
 Wyszukiwarka wykorzystująca low rank approximation do wyszukiwania artykułów z Wikipedii  
 matrix.npz - macierz termów w dokumentach  
-Nie mogę załączyć przetworzonych macierzy z powodu zbyt dużego rozmiaru plików.
+formatted_matrix.npz - macierz z uwzględnionym IDF i znormalizowana  
+Nie mogę załączyć macierzy z low rank approximation dla większych k z powodu zbyt dużych rozmiarów plików.
